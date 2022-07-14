@@ -1,0 +1,44 @@
+#carousel1.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  font-size: 20px;
+  color: rgb(239,162,8);
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#carousel1.carousel-control .icon-prev,
+#carousel1.carousel-control .glyphicon-chevron-left {
+  left: 5%;
+  margin-left: -10px;
+}
+#carousel1.carousel-control .icon-next,
+#carousel1.carousel-control .glyphicon-chevron-right {
+  right: 5%;
+  margin-right: -10px;
+}
+@media screen and (min-width: 768px) {
+  #carousel1.carousel-control .glyphicon-chevron-left,
+  #carousel1.carousel-control .glyphicon-chevron-right,
+  #carousel1.carousel-control .icon-prev,
+  #carousel1.carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+  
+  }
+	#carousel1.carousel-control.right {
+		right:115px;
+	}
+	#carousel1.carousel-control.left {
+		left:115px;
+	}	
+}
+
+

@@ -1,0 +1,22 @@
+#boton-principal-bio{
+  padding-top: 0;
+  padding-bottom: 1px;
+  color: #fff;
+  text-align: left;
+  background-color: rgb(0,151,23);
+}
+#boton-principal-bio{
+  width: 6%;
+  max-width: 6%;
+  margin-bottom: 0px;
+}
+#boton-principal-bio{
+  padding: 4px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid rgb(0,151,23);
+}
+#boton-principal-bio td:hover{
+	background-color: #2e6da4;
+	cursor: pointer;
+}

@@ -1,0 +1,89 @@
+@media screen and (min-width: 992px){
+	#titulo-proyecto{
+		display: none;
+	}
+}
+@media screen and (max-width: 340px){
+	#menu-prueba{
+        position: relative;
+		right: 2px;
+	}
+}
+@media screen and (max-width: 339px){
+	#menu-prueba{
+        position: relative;
+		right: 4px;
+	}
+}
+@media screen and (max-width: 338px){
+	#menu-prueba{
+        position: relative;
+		right: 5px;
+	}
+}
+@media screen and (max-width: 337px){
+	#menu-prueba{
+        position: relative;
+		right: 6px;
+	}
+}
+@media screen and (max-width: 336px){
+	#menu-prueba{
+        position: relative;
+		right: 5px;
+	}
+}
+@media screen and (max-width: 335px){
+	#menu-prueba{
+        position: relative;
+		right: 6px;
+	}
+}
+@media screen and (max-width: 334px){
+	#menu-prueba{
+        position: relative;
+		right: 6px;
+	}
+}
+@media screen and (max-width: 332px){
+	#menu-prueba{
+        position: relative;
+		right: 7px;
+	}
+}
+@media screen and (max-width: 330px){
+	#menu-prueba{
+        position: relative;
+		right: 8px;
+	}
+}
+@media screen and (max-width: 329px){
+	#menu-prueba{
+        position: relative;
+		right: 9px;
+	}
+}
+@media screen and (max-width: 327px){
+	#menu-prueba{
+        position: relative;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 325px){
+	#menu-prueba{
+        position: relative;
+		right: 11px;
+	}
+}
+@media screen and (max-width: 323px){
+	#menu-prueba{
+        position: relative;
+		right: 12px;
+	}
+}
+@media screen and (max-width: 321px){
+	#menu-prueba{
+        position: relative;
+		right: 13px;
+	}
+}
