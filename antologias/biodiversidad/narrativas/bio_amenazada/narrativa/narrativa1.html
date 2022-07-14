@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Bionarrativas</title>
+	<link rel="shortcut icon" href="img/bio-logo.png"/>
+	<link rel="stylesheet" type="text/css" href="../../../css/encabezado-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/style-index1.css">
+    <link rel="stylesheet" type="text/css" href="css/ventana-modal.css">
+    <script type="text/javascript" src="js/eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+        <body>
+            <header>
+               <img src="img/bannersuperior_biodiversidadamenazada.jpg" class="img-responsive" style="padding: 0 0 30px" alt="Narrativa Biodiversidad Amenazada">
+            </header>
+                    <!--Inicio de atras para movil-->
+            <div class="atras-movil">
+            <font face="verdana"><a href="narrativa1.html" style="visibility: hidden;"><h4 style="color: #333">Atrás</h4></a></font>
+        </div>
+                        <!--Fin de atras para movil-->
+
+                    <!--Inicio de siguiente para movil-->
+            <div class="siguiente-movil" style="width: 85px">
+            <font face="verdana"><a href="narrativa2.html"><h4 style="color: #333">Siguiente</h4></a></font>
+        </div>
+                        <!--Fin de siguiente para movil-->
+            <div class="container-fluid">
+                <div class="row">
+                    <section class="col-md-10 col-lg-8 col-lg-push-2">
+                        <!--Inicio de ventana modal exticion-->
+                            <div class="modal1 fade" id="video-extincion"  onclick="intro_extincion()">
+                                <div class="modal-dialog">
+                                    <video id="extincion" controls class="img-responsive">
+                                        <source src="video/CONABIO_Nuestras_extinciones.mp4" type="video/mp4">
+                                    </video>     
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal exticion-->
+                        <font face="verdana">
+                        <p class="texto-narrativa">
+                        <img class="img-responsive" src="img/Biodiv_general.jpg" id="img-intro" alt="Biodiversidad">
+							
+                        A nivel global la biodiversidad está amenazada debido a diversos factores entre los cuales destacan: la pérdida y deterioro de los <strong><a href="#ventana-habitad" data-toggle="modal" class="estilo-vinculo" style="cursor: pointer;"><u>hábitats</u></a></strong>, el cambio climático y la introducción de <strong><a class="estilo-vinculo" style="cursor: pointer;" onclick="especies_invasoras()"><u>especies invasoras</u></a></strong>. Esto se debe a que cada uno de ellos ha tenido y puede tener diversos efectos sobre la biodiversidad entre ellos la extinción de muchas especies.  Pero, ¿qué es cada uno de ellos y cómo puede afectar a la biodiversidad?<br><br>Comencemos con la pérdida de hábitats, al hacer un recorrido  por algunos países o estados de la república utilizando los mapas de Google, podemos apreciar, al hacer acercamientos, la pérdida de <strong><a href="#img-habitats-silvestres" data-toggle="modal" class="estilo-vinculo" style="cursor: pointer;"><u>hábitats silvestres</u></a></strong>. Esta pérdida se encuentra relacionada al cambio de uso de suelo, es decir la transformación de un espacio silvestre a espacio urbano o para producción agrícola o ganadera. La fragmentación del espacio natural puede tener diversos efectos sobre las especies entre ellos su extinción.<br><br>Otro de los factores que no puede escapar nuestra atención es el cambio climático que constantemente es tema en algunas noticias. Las actividades humanas como el uso de combustibles fósiles son las responsables de esto ya que han incrementado los niveles de algunos <strong><a class="estilo-vinculo" style="cursor: pointer;" onclick="efecto_invernadero()"><u>gases de efecto invernadero</u></a></strong> y provocado un aumento en la temperatura tanto a nivel global como a nivel regional y local. Esto ha modificado el clima en muchas regiones teniendo diversos <strong><a href="javascript:window.open('http://wwf.panda.org/es/?256070/El-impacto-del-cambio-climtico-sobre-las--especies','','toolbar=yes');void 0" class="estilo-vinculo" style="cursor: pointer;"><u>efectos en las especies</u></a></strong> que las habitan.
+                        </p>
+                        </font>
+                            <aside class="col-md-2 col-lg-2 col-lg-push-1 col-md-push-1" style=" width: 0;height: 0">
+                                <a href="narrativa1.html" style="visibility: hidden;"><img src="img/Izquierda.png" id="atras"></a>                               
+                                <div class="col-md-2 col-lg-2 col-lg-push-1 col-md-pull-8"><a href="narrativa2.html"><img src="img/Derecha.png" id="siguiente1"></a></div>
+                            </aside>
+
+                            <!--Inicio de ventana modal imagen habitats silvestres-->
+                            <div class="modal2 fade" id="img-habitats-silvestres">
+                                <div class="modal-dialog">
+                                    <img src="img/Habitats_silvestres.jpg" class="img-responsive">
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal habitats silvestres-->
+
+                        <!--Inicio de ventana modal de habitad-->
+            <div class="modal1 fade" id="ventana-habitad">
+                    <div class="modal-dialog">
+                        <div class="modal1-content" style="border:4px solid #D17E24">
+                                <!--Inicio Header de la ventana modal latitud polar-->
+                            <div class="modal1-header">
+                                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: #000">Cerrar</button>
+                            </div>
+                                <!--Fin Header de la ventana modal de habitad-->
+                            
+                                <!-- Inicio de contenido ventana modal de habitad-->
+                            <div class="modal1-body">
+                                <p style="color: #080200; text-align: justify;font-size: 14px;"><br>
+                                    El concepto de hábitat es utilizado por biólogos y ecólogos. Con el desarrollo de la teoría ecológica, se incorpora una dimensión ambiental a este primer concepto, en este sentido se describe al hábitat, como “...la suma total de los factores del medio ambiente que una especie animal requiere para realizar sus funciones de supervivencia y reproducción en un área dada…” (Trefethen 1964, Cooperrider 1986). Por tanto, podemos considerar al hábitat, como el área que proporciona apoyo directo a una especie determinada (una población o a una comunidad), considerando factores bióticos y abióticos (por ejemplo, espacio físico, calidad del aire, del agua, asociaciones vegetales, alimento, cobertura de protección, suelo, orografía del terreno, entre otras)
+                                </p>
+                            </div>
+                                <!-- Fin de contenido ventana modal de habitad-->
+                            
+                                <!-- Inicio Footer ventana modal de habitad-->
+                            <div class="modal1-footer">
+                                <p style="font-size: 11px; color: #080200; text-align: justify"><i><b>* Delfín-Alfonso, Ch., Gallina-Tessaro, S., López-González, C.A., 2000, “Manual de Técnicas para el estudio de la Fauna”, Cap. 13, Fauna silvestre de México: uso, manejo y legislación. SEMARNAT-INECC-Universidad Autónoma de Querétaro: México.</i></b></p>
+                            </div>
+                                <!-- Fin Footer ventana modal de habitad-->
+                        </div>
+                    </div>
+                </div>
+                            <!--Fin de ventana modal de habitad-->
+
+
+                </div>
+            </div> 
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script src="../../bootstrap/js/bootstrap.min.js"></script>
+
+            <!--Inicio de script para video de extincion-->
+             <script type="text/javascript">
+                
+                $(window).load(function() {
+                    $('#video-extincion').modal('show');
+                });
+                $("#extincion").bind("ended", function() {
+                    $('#video-extincion').modal('toggle');
+                });
+
+            </script>
+             <!--Fin de script para video de extincion-->
+        </body>
+    </html>

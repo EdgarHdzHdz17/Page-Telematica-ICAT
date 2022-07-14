@@ -1,0 +1,307 @@
+@media only screen and (min-width: 1025px) {
+	.menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+	.menu-movil{
+		width: 800px;
+	}
+	#menu{
+		display: none;
+	}
+	.encabezado-menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 799px) and (min-width: 790px) {
+	.menu-movil{
+		width: 790px;
+	}
+	#menu{
+		display: none;
+	}
+	#submenu{
+		width: 200px;
+	}
+	.encabezado-menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 789px) and (min-width: 780px) {
+	.menu-movil{
+		width: 780px;
+	}
+	#menu{
+		display: none;
+	}
+	#submenu{
+		width: 192px;
+	}
+	.encabezado-menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 779px) and (min-width: 769px) {
+	.menu-movil{
+		width: 760px;
+	}
+	#menu{
+		display: none;
+	}
+	#submenu{
+		width: 200px;
+		left: -24px;
+	}
+	.encabezado-menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 768px) {
+	.menu-movil{
+		width: 760px;
+	}
+	#menu{
+		display: none;
+	}
+	#submenu{
+		width: 190px;
+		left: -20px;
+	}
+	.encabezado-menu-movil{
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#menu{
+		display: none;
+	}
+}
+@media only screen and (max-width: 748px) {
+	.barra-menu{
+		position: relative; 
+		left: 610px;
+	}
+}
+@media only screen and (max-width: 736px) {
+	.barra-menu{
+		position: relative; 
+		left: 600px;
+	}
+}
+@media only screen and (max-width: 732px) {
+	.barra-menu{
+		position: relative; 
+		left: 550px;
+	}
+}
+@media only screen and (max-width: 731px) {
+	.barra-menu{
+		position: relative; 
+		left: 600px;
+	}
+}
+@media only screen and (max-width: 720px) {
+	.barra-menu{
+		position: relative; 
+		left: 580px;
+	}
+}
+@media only screen and (max-width: 704px) {
+	.barra-menu{
+		position: relative; 
+		left: 570px;
+	}
+}
+@media only screen and (max-width: 688px) {
+	.barra-menu{
+		position: relative; 
+		left: 550px;
+	}
+}
+@media only screen and (max-width: 676px) {
+	.barra-menu{
+		position: relative; 
+		left: 540px;
+	}
+}
+@media only screen and (max-width: 667px) {
+	.barra-menu{
+		position: relative; 
+		left: 540px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.barra-menu{
+		position: relative; 
+		left: 510px;
+	}
+}
+@media only screen and (max-width: 632px) {
+	.barra-menu{
+		position: relative; 
+		left: 500px;
+	}
+}
+@media only screen and (max-width: 624px) {
+	.barra-menu{
+		position: relative; 
+		left: 490px;
+	}
+}
+@media only screen and (max-width: 616px) {
+	.barra-menu{
+		position: relative; 
+		left: 480px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.barra-menu{
+		position: relative; 
+		left: 470px;
+	}
+}
+@media only screen and (max-width: 596px) {
+	.barra-menu{
+		position: relative;
+		left: 460px;
+	}
+}
+@media only screen and (max-width: 584px) {
+	.barra-menu{
+		position: relative;
+		left: 440px;
+	}
+}
+@media only screen and (max-width: 568px) {
+	.barra-menu{
+		position: relative; 
+		left: 440px;
+	}
+}
+@media only screen and (max-width: 564px) {
+	.barra-menu{
+		position: relative; 
+		left: 420px;
+	}
+}
+@media only screen and (max-width: 560px) {
+	.barra-menu{
+		position: relative;
+		left: 420px;
+	}
+}
+@media only screen and (max-width: 548px) {
+	.barra-menu{
+		position: relative; 
+		left: 410px;
+	}
+}
+@media only screen and (max-width: 533px) {
+	.barra-menu{
+		position: relative; 
+		left: 400px;
+	}
+}
+@media only screen and (max-width: 528px) {
+	.barra-menu{
+		position: relative; 
+		left: 390px;
+	}
+}
+@media only screen and (max-width: 516px) {
+	.barra-menu{
+		position: relative; 
+		left: 380px;
+	}
+}
+@media only screen and (max-width: 510px) {
+	.barra-menu{
+		position: relative; 
+		left: 370px;
+	}
+}
+@media only screen and (max-width: 488px) {
+	.barra-menu{
+		position: relative; 
+		left: 350px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.barra-menu{
+		position: relative; 
+		left: 350px;
+	}
+}
+@media only screen and (max-width: 472px) {
+	.barra-menu{
+		position: relative; 
+		left: 330px;
+	}
+}
+@media only screen and (max-width: 456px) {
+	.barra-menu{
+		position: relative; 
+		left: 310px;
+	}
+}
+@media only screen and (max-width: 436px) {
+	.barra-menu{
+		position: relative; 
+		left: 290px;
+	}
+}
+@media only screen and (max-width: 414px) {
+	.barra-menu{
+		position: relative; 
+		left: 280px;
+	}
+}
+@media only screen and (max-width: 412px) {
+	.barra-menu{
+		position: relative; 
+		left: 280px;
+	}
+}
+@media only screen and (max-width: 411px) {
+	.barra-menu{
+		position: relative; 
+		left: 280px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.barra-menu{
+		position: relative; 
+		left: 260px;
+	}
+}
+@media only screen and (max-width: 384px) {
+	.barra-menu{
+		position: relative; 
+		left: 250px;
+	}
+}
+@media only screen and (max-width: 372px) {
+	.barra-menu{
+		position: relative; 
+		left: 230px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.barra-menu{
+		position: relative; 
+		left: 230px;
+	}
+}
+@media only screen and (max-width: 352px) {
+	.barra-menu{
+		position: relative; 
+		left: 210px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.barra-menu{
+		position: relative; 
+		left: 190px;
+	}
+}

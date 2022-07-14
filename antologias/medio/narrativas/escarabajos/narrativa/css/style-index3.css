@@ -1,0 +1,602 @@
+.estilo-vinculo {
+    color: #FF0000;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 200px auto;
+  }
+section{
+    border: solid 1px #D17E24;
+    padding: 0;
+    border-radius: 50px;
+}
+.texto-narrativa{
+    padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+.col-lg-2{
+    position: absolute;
+    top: -330px
+}
+#atras{
+    position: absolute;
+    left: -200px;
+    top: 60px;
+    width: 60px
+
+}
+#video-ciclo{
+    position: relative;
+    width: 500px;
+    top: -10px;
+}
+#img-infografia{
+    padding: 15px;
+}
+@media only screen and (min-width:1920px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 210px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1919px) and (min-width: 1879px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 210px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1880px) and (min-width: 1819px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 180px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1820px) and (min-width: 1759px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 160px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1760px) and (min-width: 1702px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 120px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1700px) and (min-width: 1672px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 100px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1671px) and (min-width: 1600px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 60px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1599px) and (min-width: 1550px) {
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 60px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1551px) and (min-width: 1500px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 20px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1499px) and (min-width: 1439px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -10px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1440px) and (min-width:1440px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        position: relative;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1439px) and (min-width: 1400px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -30px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width:1399px) and (min-width: 1367px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+        display: none;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -30px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 10px;
+    }
+}
+@media only screen and (min-width:1336px) and (max-width: 1366px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -160px;
+        top: 30px;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width:1365px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 40px;
+    }
+}
+@media only screen and (max-width:1299px) and (min-width:1289px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 40px;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1280px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 60px;
+    }
+}
+@media only screen and (max-width:1279px) and (min-width:1200px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 60px;
+    }
+}
+@media only screen and (max-width:1199px) and (min-width:1026px) {
+    .atras-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 130px;
+    }
+    #atras{
+        position: absolute;
+        left: -180px;
+        top: 40px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .atras-movil{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width: 1000px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+       position:relative;
+       left: 20px;
+       top: -20px;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 80px;
+        top: -20px
+    }
+    #atras{
+        display: none;
+    }
+}
+@media only screen and (max-width:999px) and (min-width: 990px) {
+    #atras{
+        display: none;
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 100px;
+    }
+}
+@media only screen and (max-width:988px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }  
+}
+@media only screen and (max-width:960px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+}
+@media only screen and (max-width:800px) {
+    .siguiente-movil{
+        display: none;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: absolute;
+        left: -200px;
+        top: 0;
+    }
+}
+@media only screen and (max-width:768px) {
+    #atras{
+        display: none;
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }   
+    .texto-narrativa{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:732px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    } 
+}
+@media only screen and (max-width:640px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }  
+}
+@media only screen and (max-width:600px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+}
+@media only screen and (max-width:414px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:384px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        width: 370px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        width: 370px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        width: 360px;
+    } 
+}
+@media only screen and (max-width:320px) {
+    body{
+        overflow-x: hidden;
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 10px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        width: 310px;
+    }
+}

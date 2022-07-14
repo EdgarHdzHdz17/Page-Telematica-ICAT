@@ -1,0 +1,2393 @@
+#planktos-texto{
+    position: absolute;
+    left: 590px;
+}
+#img-mar{
+    background-repeat: no-repeat;
+    width: 280px;
+    height:730px;
+    padding: 0px;
+    margin: 0px;
+}
+#atras{
+    width: 60px;
+}
+.col-lg-8{
+    top: -500px;
+}
+section{
+    height: 0;
+}
+p{
+    border-radius: 80px;
+    padding: 22px;
+    position: relative;
+    top: -50px;
+    left: 60px;
+    font-size: 14px;
+}
+.col-lg-2{
+    position: relative;
+    top: -260px;
+    left: -60px;
+    
+}
+#titulo-actividad{
+    color: #D17E24;
+    font-size: 20px;
+    position: relative;
+    margin: 0;
+    left: 360px;
+    width: 280px;
+}
+.atras-movil{
+    width: 50px;
+}
+@media only screen and (min-width:1920px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -200px;
+        left: 100px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 940px;
+    }
+    #img-mar{
+        position: relative;
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 520px;
+        top: 40px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 30px;
+        left: 200px;
+        width: 900px;
+    }
+    section{
+        position: relative;
+        top: -90px;
+    }
+}
+@media only screen and (max-width: 1919px) and (min-width: 1900px) {
+    .col-lg-2{
+        position: relative;
+        top: -200px;
+        left: 100px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 940px;
+    }
+    #img-mar{
+        position: relative;
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 520px;
+        top: 40px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 30px;
+        left: 200px;
+        width: 900px;
+    }
+    section{
+        position: relative;
+        top: -90px;
+    }
+}
+@media only screen and (max-width: 1899px) and (min-width: 1800px) {
+    .col-lg-2{
+        position: relative;
+        top: -200px;
+        left: 100px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 880px;
+    }
+    #img-mar{
+        position: relative;
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 520px;
+        top: 40px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 30px;
+        left: 200px;
+        width: 900px;
+    }
+    section{
+        position: relative;
+        top: -90px;
+    }
+}
+@media only screen and (max-width:1799px) and (min-width: 1700px) {
+    .col-lg-2{
+        position: relative;
+        top: -320px;
+        left: 60px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 820px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 500px;
+        top: -90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 160px;
+        width: 900px;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width: 1699px) {
+    #img-mar{
+        width: 320px;
+    }
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -320px;
+        left: 60px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 800px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 500px;
+        top: -90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 160px;
+        width: 900px;
+    }
+}
+@media only screen and (min-width:1500px) and (max-width: 1599px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -320px;
+        left: 60px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 760px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+   #titulo-actividad{
+        position: relative;
+        left: 500px;
+        top: -90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 160px;
+        width: 900px;
+    }
+}
+@media only screen and (min-width:1451px) and (max-width: 1499px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -320px;
+        left: 40px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 720px;
+    }
+    #img-mar{
+        width: 300px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 460px;
+        top: -90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 140px;
+        width: 900px;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:1448px) {
+    .atras-movil{
+       display: none;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 650px;
+    }
+     #img-mar{
+        width: 300px;
+    } 
+    #titulo-actividad{
+        position: relative;
+        left: 380px;
+        top: -70px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -320px;
+        left: -60px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 50px;
+        width:900px;
+    }
+}
+@media only screen and (min-width:1400px) and (max-width: 1444px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -340px;
+        left: 80px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 700px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 440px;
+        top: -60px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 180px;
+        width: 800px;
+    }
+}
+@media only screen and (min-width:1368px) and (max-width: 1399px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -340px;
+        left: 80px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 680px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 440px;
+        top: -60px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 180px;
+        width: 800px;
+    }
+}
+@media only screen and (min-width:1366px) and (max-width:1366px) {
+   #img-mar{
+        position: relative;
+        width: 300px;
+    }
+   .atras-movil{
+        display: none;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 620px;
+    } 
+    section{
+        position: relative;
+        top: -50px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -300px;
+        left: -10px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 400px;
+        top: -30px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -50px;
+        left: 100px;
+        width: 850px;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width: 1365px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -350px;
+        left: -10px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 620px;
+    }
+    #img-mar{
+        width: 300px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 400px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 100px;
+        width: 850px;
+    }
+}
+@media only screen and (min-width:1279px) and (max-width: 1299px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 100px;
+    
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 620px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 400px;
+        top: -70px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 200px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1280px) and (max-width:1280px) {
+    .atras-movil{
+       display: none;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -350px;
+        left: -20px;
+    
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 580px; 
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 380px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -90px;
+        left: 100px;
+        width: 800px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width: 1279px) {
+    .atras-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 140px;
+    
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 620px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 400px;
+        top: -70px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 250px;
+        width: 600px;
+    }
+}
+@media only screen and (min-width:1026px) and (max-width: 1199px) {
+    #img-mar{
+        display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: 400px;
+        left: -250px;
+    
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 150px;
+        top: 660px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 350px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 650px;
+        left: -100px;
+        width: 800px;
+    } 
+}
+@media only screen and (min-width:1025px) {
+    .atras-movil{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:1020px) {
+    #img-mar{
+        display: none;
+    }
+    #atras{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -400px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 120px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 260px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: -150px;
+        width: 800px;
+    } 
+}
+@media only screen and (max-width: 1019px) and (min-width: 1000px) {
+    #img-mar{
+        display: none;
+    }
+    #atras{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -380px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 260px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: -150px;
+        width: 800px;
+    } 
+}
+@media only screen and (min-width:987px) and (max-width: 999px) {
+     #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -350px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 280px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: -150px;
+        width: 800px;
+    } 
+}
+@media only screen and (min-width:961px) and (max-width: 991px) {
+     #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -420px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 380px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 250px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 100px;
+        width: 800px;
+    } 
+}
+@media only screen and (max-width:960px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -420px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 240px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 240px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 30px;
+    }
+}
+@media only screen and (max-width: 959px) {
+    #titulo-actividad{
+        position: relative;
+        left: 340px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width:948px) and (min-width: 940px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -400px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 340px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 240px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 25px;
+    } 
+}
+@media only screen and (max-width: 939px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+    } 
+}
+@media only screen and (max-width: 924px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+    } 
+}
+@media only screen and (max-width: 922px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+    } 
+}
+@media only screen and (max-width: 912px) {
+    #titulo-actividad{
+        position: relative;
+        left: 300px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        width: 854px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -380px;
+        z-index: 100;
+    } 
+}
+@media only screen and (max-width: 880px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        width: 854px;
+    }
+}
+@media only screen and (max-width:872px) and (min-width: 872px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -380px
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 320px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600;
+        left: 0;
+        width: 854px
+    } 
+}
+@media only screen and (max-width: 862px) {
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 280px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 30px;
+        width: 800px
+    } 
+}
+@media only screen and (max-width:854px) and (min-width: 854px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -380px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 250px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600;
+        left: 0;
+        width: 850px
+    } 
+}
+@media only screen and (max-width:840px) and (min-width: 824px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -350px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 270px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 180px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        width: 780px
+    } 
+}
+@media only screen and (max-width:823px) and (min-width: 823px) {
+    #planktos-texto{
+        position: absolute;
+        left: 160px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -360px;
+        z-index: 100;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 240px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 6px;
+        margin: 0;
+        width: 810px;
+    } 
+}
+@media only screen and (max-width: 822px) {
+    #planktos-texto{
+        position: absolute;
+        left: 160px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -360px;
+        z-index: 100;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 260px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 780px;
+    } 
+}
+@media only screen and (max-width:812px) and (min-width:812px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -350px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 220px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: -45px;
+        width: 808px
+    } 
+}
+@media only screen and (max-width: 812px) {
+     p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 5px;
+        margin: 0;
+        width: 800px;
+    }
+}
+@media only screen and (max-width:800px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -350px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 280px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 0px;
+        margin: 0;
+        width: 800px;
+    }
+    .col-lg-2{
+        display: none;
+    }  
+}
+@media only screen and (max-width: 799px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 788px) {
+    #titulo-actividad{ 
+        position: relative;
+        left: 260px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 730px;
+    } 
+}
+@media only screen and (max-width:768px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 140px;
+        left: -330px;
+        z-index: 100;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 230px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    p {
+        font-size: 12px;
+        width: 764px;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 755px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 40px;
+        margin: 0;
+        width: 680px;
+    } 
+}
+@media only screen and (max-width: 740px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 30px;
+        margin: 0;
+        width: 680px;
+    } 
+}
+@media only screen and (max-width:736px) and (min-width: 736px) {
+    section{
+        height: 0;
+        width: 0;
+    }
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -330px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 4px;
+        margin: 0;
+        width: 730px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 115px;
+    }
+    #titulo-actividad{ 
+        position: relative;
+        left: 240px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    #planktos-texto{
+        position: absolute;
+        left: 110px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 18px;
+        margin: 0;
+        width: 700px;
+    } 
+}
+@media only screen and (max-width:732px) {
+    #atras{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -330px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 0;
+        margin: 0;
+        width: 730px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 130px;
+    }
+    .col-lg-2{
+        display: none;
+    } 
+}
+@media only screen and (max-width: 730px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -300px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 25px;
+        margin: 0;
+        width: 680px;
+    }  
+}
+@media only screen and (max-width: 724px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -300px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 680px;
+    }  
+}
+@media only screen and (max-width: 715px) {
+    #titulo-actividad{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 25px;
+        margin: 0;
+        width: 660px;
+    } 
+}
+@media only screen and (max-width: 705px) {
+    #titulo-actividad{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 660px;
+    } 
+}
+@media only screen and (max-width: 699px) {
+    #titulo-actividad{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 15px;
+        margin: 0;
+        width: 660px;
+    } 
+}
+@media only screen and (max-width: 684px) {
+    #planktos-texto{
+        position: absolute;
+        left: 90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 660px;
+    } 
+}
+@media only screen and (max-width: 679px) {
+    #planktos-texto{
+        position: absolute;
+        left: 90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 4px;
+        margin: 0;
+        width: 660px;
+    } 
+}
+@media only screen and (max-width:667px) and (min-width: 667px) {
+    section{
+        height: 0;
+        width: 0;
+    } 
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 4px;
+        margin: 0;
+        width: 660px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 90px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 180px;
+        top: 620px;
+    }
+    .col-lg-2{
+        display: none;
+    } 
+}
+@media only screen and (max-width: 664px) {
+    #planktos-texto{
+        position: absolute;
+        left: 90px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 6px;
+        margin: 0;
+        width: 650px;
+    } 
+}
+@media only screen and (max-width: 658px) {
+    section{
+        height: 0;
+        width: 0;
+    } 
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 640px;
+    }
+}
+@media only screen and (max-width: 654px) {
+    section{
+        height: 0;
+        width: 0;
+    } 
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 12px;
+        margin: 0;
+        width: 620px;
+    }
+}
+@media only screen and (max-width:640px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -260px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 180px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 0;
+        margin: 0;
+        width: 640px;
+    }
+    .col-lg-2{
+        display: none;
+    } 
+    section{
+        height: 0;
+        width: 0;
+    }  
+}
+@media only screen and (max-width: 635px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 635px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 15px;
+        margin: 0;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 625px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 6px;
+        margin: 0;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 605px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 2px;
+        margin: 0;
+        width: 600px;
+    }
+}
+@media only screen and (max-width:600px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -260px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 160px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 0;
+        margin: 0;
+        width: 600px;
+    }  
+}
+@media only screen and (max-width: 599px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 591px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 15px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 584px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 580px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -250px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 577px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -240px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 8px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 570px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 4px;
+        margin: 0;
+        width: 560px;
+    }  
+}
+@media only screen and (max-width: 568px) and (min-width: 568px) {
+    #planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -240px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 140px;
+        top: 620px;
+        font-size: 18px
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 2px;
+        margin: 0;
+        width: 564px;
+    }
+    .col-lg-2{
+        display: none;
+    }    
+}
+@media only screen and (max-width: 567px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 12px;
+        margin: 0;
+        width: 540px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 540px;
+    }
+}
+@media only screen and (max-width: 556px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 6px;
+        margin: 0;
+        width: 540px;
+    }
+}
+@media only screen and (max-width: 546px) {
+    #planktos-texto{
+        position: absolute;
+        left: 20px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -220px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 140px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 18px;
+        margin: 0;
+        width: 510px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #titulo-actividad{
+        position: relative;
+        left: 130px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 30px;
+        margin: 0;
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 539px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 14px;
+        margin: 0;
+        width: 510px;
+    }
+}
+@media only screen and (max-width:533px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -220px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 15px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 140px;
+        top: 620px;
+        font-size: 16px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 0;
+        margin: 0;
+        width: 530px;
+    }
+    .col-lg-2{
+        display: none;
+    }    
+}
+@media only screen and (max-width: 530px) {
+    #titulo-actividad{
+        position: relative;
+        left: 140px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 15px;
+        margin: 0;
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 524px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 20px;
+        margin: 0;
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 510px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -200px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 120px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #titulo-actividad{
+        position: relative;
+        left: 130px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: 10px;
+        margin: 0;
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;        
+        left: 30px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 489px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;        
+        left: 20px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width:480px) and (min-width: 480px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -200px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 0;
+        margin: 0;
+        width: 476px;
+    }
+    .col-lg-2{
+        display: none;
+    }   
+}
+@media only screen and (max-width: 479px) {
+    .atras-movil{
+        position: relative;
+        top: 150px;
+        left: -180px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 120px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 20px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 469px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 15px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 461px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 10px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 456px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 8px;
+        margin: 0;
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 452px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 0;
+        margin: 0;
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 449px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 15px;
+        margin: 0;
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 445px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 12px;
+        margin: 0;
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 10px;
+        margin: 0;
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 435px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 8px;
+        margin: 0;
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 4px;
+        margin: 0;
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .atras-movil{
+        position: relative;
+        top: 140px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 20px;
+        margin: 0;
+        width: 390px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .atras-movil{
+        position: relative;
+        top: 140px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 90px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 15px;
+        margin: 0;
+        width: 390px;
+    }
+}
+@media only screen and (max-width:414px) and (min-width: 414px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 120px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 80px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 0;
+        width: 410px;
+    }
+    .col-lg-2{
+        display: none;
+    }  
+}
+@media only screen and (max-width:412px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 90px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 6px;
+        width: 400px;
+    } 
+}
+@media only screen and (max-width:411px) and (min-width: 411px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 120px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 70px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 6px;
+        width: 400px;
+    } 
+}
+@media only screen and (max-width: 410px) {
+    .atras-movil{
+        position: relative;
+        top: 120px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 80px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 20px;
+        width: 360px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .atras-movil{
+        position: relative;
+        top: 140px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 80px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 610px;
+        left: 0;
+        margin: 0;
+        width: 390px;
+    }
+}
+@media only screen and (max-width: 389px) {
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 70px;
+        top: 590px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 14px;
+        width: 360px;
+    }
+}
+@media only screen and (max-width:384px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -160px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 70px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 10px;
+        width: 370px;
+    }
+    .col-lg-2{
+        display: none;
+    }   
+}
+@media only screen and (max-width: 384px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 8px;
+        width: 370px;
+    }
+}
+@media only screen and (max-width: 379px) {
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -140px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 4px;
+        width: 372px;
+    }  
+}
+@media only screen and (max-width: 374px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 20px;
+        width: 330px;
+    }  
+}
+@media only screen and (max-width:360px) {
+    .atras-movil{
+        position: relative;
+        top: 120px;
+        left: -140px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 60px;
+        top: 590px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 0;
+        width: 360px;
+    }  
+}
+@media only screen and (max-width: 359px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 10px;
+        width: 340px;
+    }  
+}
+@media only screen and (max-width: 355px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 8px;
+        width: 340px;
+    }  
+}
+@media only screen and (max-width: 346px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 0px;
+        width: 344px;
+    }  
+}
+@media only screen and (max-width: 335px) {
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -120px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 50px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 8px;
+        width: 320px;
+    }  
+}
+@media only screen and (max-width: 328px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 8px;
+        width: 310px;
+    } 
+}
+@media only screen and (max-width:320px) {
+    .atras-movil{
+        position: relative;
+        top: 110px;
+        left: -120px;
+        z-index: 100;
+    }
+    #titulo-actividad{
+        position: relative;
+        left: 40px;
+        top: 585px;
+        font-size: 16px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 565px;
+        left: 0;
+        width: 317px;
+    }  
+}

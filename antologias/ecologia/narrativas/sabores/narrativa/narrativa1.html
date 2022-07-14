@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Antología Ecología</title>
+	<link rel="shortcut icon" href="img/bio-logo.png"/>
+	<link rel="stylesheet" type="text/css" href="../../../css/encabezado-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/style-index1.css">
+    <link rel="stylesheet" type="text/css" href="css/ventana-modal.css">
+    <script type="text/javascript" src="js/eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+    <body>
+            <header>
+               <img src="img/sabores_horizontal.jpg" class="img-responsive" style="padding: 0 0 30px" alt="Narrativa Sabores de la Milpa">
+            </header>
+                    <!--Inicio de atras para movil-->
+            <div class="atras-movil">
+            <font face="verdana"><a href="narrativa1.html" style="visibility: hidden;"><h4 style="color: #333">Atrás</h4></a></font>
+        </div>
+                        <!--Fin de atras para movil-->
+
+                    <!--Inicio de siguiente para movil-->
+            <div class="siguiente-movil" style="width: 85px">
+            <font face="verdana"><a href="narrativa2.html"><h4 style="color: #333;">Siguiente</h4></a></font>
+        </div>
+                        <!--Fin de siguiente para movil-->
+            <div class="container-fluid">
+                <div class="row">
+                    <section class="col-md-10 col-lg-8 col-lg-push-2">
+                            <!--Inicio de ventana modal maiz-->
+                            <div class="modal1 fade" id="video-maiz"  onclick="intro_maiz()">
+                                <div class="modal-dialog">
+                                    <video id="maiz" controls class="img-responsive">
+                                        <source src="video/Historia_del_maiz.mp4" type="video/mp4">
+                                    </video>     
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal maiz-->
+                        <font face="verdana">
+                        <p class="texto-narrativa">
+                        Al recorrer nuestro país es posible disfrutar de una infinidad de platillos tradicionales de la cocina mexicana.<br><br>
+                        <img src="img/chiles_rabanos.jpg" id="img-sabores" class="img-responsive"> 
+
+                        Para poder degustarlos no hay nada como planear una visita a cada una de las <strong><a class="estilo-vinculo" style="cursor: pointer;" onClick="regiones()"><u>regiones gastronómicas</u></a></strong> de nuestro país. Cada platillo nos remitirá a una variedad de ingredientes que se obtienen de la biodiversidad, que es la base de la agricultura.<br><br>
+
+                        Los primeros agricultores utilizaron algunas especies silvestres y posteriormente las fueron seleccionando para producir diversas <strong><a href="#img-domesticados" data-toggle="modal" class="estilo-vinculo" onclick="domesticacion()"><u>especies domesticadas</u></a></strong> de las cuales se originan todos los cultivos y el <strong><a class="estilo-vinculo" style="cursor: pointer;" onClick="ganado()"><u>ganado doméstico</u></a></strong> que han sido utilizados para producir tanto alimentos como otros productos.<br><br>
+
+                        La domesticación  de muchas de las especies de <strong><a class="estilo-vinculo" style="cursor: pointer;" onClick="plantas()"><u>plantas</u></a></strong> que actualmente se consumen en todo el mundo surgió en Mesoamérica dentro de ambientes creados y controlados por el ser humano, hace unos 10 mil años, entre ellos está la <strong><a href="#infografia" class="estilo-vinculo" style="cursor: pointer;" onClick="infografia()" data-toggle="modal"><u>milpa</u></a></strong>.<br><br>  
+
+                        La milpa llegó a expandirse con el tiempo al resto de México y Sudamérica y representa parte importante en la cocina tradicional mexicana ya que es patrimonio cultural y biológico con un enorme valor, no sólo para México sino el mundo.<br>  
+ 
+                        </p>
+                        </font>
+                            <aside class="col-md-2 col-lg-2 col-lg-push-1 col-md-push-1" style=" width: 0;height: 0">
+                                <a href="narrativa1.html" style="visibility: hidden;"><img src="img/Izquierda.png" id="atras"></a>                               
+                                <div class="col-md-2 col-lg-2 col-lg-push-1 col-md-pull-8"><a href="narrativa2.html"><img src="img/Derecha.png" id="siguiente1"></a></div>
+                            </aside>
+                            
+                            <!--Inicio de ventana modal img-domesticacion-->
+                            <div class="modal1 fade" id="img-domesticados" onclick="domesticacion()">
+                                <div class="modal-dialog">
+                                    <img src="img/domesticacion.jpg" class="img-responsive"> 
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal img-domesticacion-->
+
+                        <!--Inicio de ventana modal img-domesticacion-->
+                            <div class="modal1 fade" id="infografia" onclick="infografia()">
+                                <div class="modal-dialog">
+                                    <img src="img/Info_MILPA.jpg" class="img-responsive"> 
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal img-domesticacion-->
+
+                    </section>
+                    <script src="http://code.jquery.com/jquery.js"></script>
+                    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+        </body>
+    </html>

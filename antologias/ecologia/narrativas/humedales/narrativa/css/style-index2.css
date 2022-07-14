@@ -1,0 +1,483 @@
+.estilo-vinculo {
+    z-index: 100;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 200px auto;
+  }
+section{
+    border: solid 1px #D17E24;
+    padding: 0;
+    border-radius: 50px;
+}
+.texto-narrativa{
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    z-index: 100;
+}
+#img-intro2{
+    position: relative;
+    width: 400px;
+    float: right; 
+    padding: 0;
+    top: 0;
+    margin: 5px;
+    left: 9px;
+}
+.col-lg-2{
+    position: absolute;
+    top: -330px;
+}
+ #atras{
+    position: relative;
+    width: 50px;
+}
+.atras-movil{
+    width: 60px;
+}
+@media only screen and (min-width:1920px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 210px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 140px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1917px) and (min-width: 1917px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 210px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 150px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1852px) and (min-width: 1852px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 210px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+       position: relative;
+        left: -200px;
+        top: 150px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1752px) and (min-width: 1752px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 140px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -230px;
+        top: 130px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1649px) and (min-width: 1649px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 90px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -230px;
+        top: 130px;
+        width: 50px;
+    }
+} 
+@media only screen and (max-width: 1600px) {
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 150px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1564px) and (min-width: 1564px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 40px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+}
+@media only screen and (max-width: 1520px) and (min-width: 1520px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 0px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+}
+@media only screen and (max-width:1440px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+        position: relative;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width: 1437px) and (min-width: 1437px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -40px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+    }
+}
+@media only screen and (max-width:1366px) and (min-width: 1366px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -50px;
+        position: relative;
+        width: 1500px;
+        top: 0;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+    }
+}
+@media only screen and (max-width:1336px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+    }
+}
+@media only screen and (max-width:1304px) {
+    #atras{
+        position: relative;
+        left: -180px;
+    }
+}
+@media only screen and (max-width:1299px) and (min-width:1200px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1280px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 30px;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 120px;
+    }
+}
+@media only screen and (max-width:1272px) and (min-width:1272px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 1260px) and (min-width: 1260px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -50px;
+        position: relative;
+        width: 1400px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 140px;
+    }
+}
+@media only screen and (max-width: 1217px) {
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 80px;
+    }
+}
+@media only screen and (max-width: 1210px) and (min-width: 1210px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: -60px;
+        position: relative;
+        width: 1400px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 120px;
+    }
+}
+@media only screen and (max-width:1199px) and (min-width: 1199px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 110px;
+    }
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 60px;
+        position: relative;
+        width: 1100px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width: 1177px) and (min-width: 1132px) {
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 150px;
+    }
+    .row{
+        position: relative;
+        left: 140px;
+    }
+}
+@media only screen and (max-width: 1131px) and (min-width: 1131px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 140px;
+        position: relative;
+        width: 1100px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width: 1123px) and (min-width: 1115px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 140px;
+        position: relative;
+        width: 1100px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width: 1114px) and (min-width: 1114px) {
+    .row{
+        padding: 0;
+        border-radius: 50px;
+        left: 140px;
+        position: relative;
+        width: 1100px;
+        top: 0;
+    }
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width: 1095px) and (min-width: 1026px) {
+    #atras{
+        position: relative;
+        left: -200px;
+        top: 120px;
+    }
+     section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 130px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    body{
+        overflow-x: hidden; 
+    }
+    .atras-movil{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 1024px) {
+    /*body{
+        overflow-x: hidden;
+    }*/
+    #atras{
+        display: none;        
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 90px;
+        top: -20px
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 988px) and (min-width: 999px) {
+    section{
+        border: solid 1px #D17E24;
+        padding: 0;
+        border-radius: 50px;
+        left: 0px;
+        top: -20px;
+        width: 900px;
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+    #atras{
+        display: none;        
+    }  
+}
+@media only screen and (max-width:960px) and (min-width: 960px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 823px) {
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+    section{
+        position: relative;
+        top: -20px;
+    }
+    #img-intro2{
+        width: 250px;
+    }
+}
+@media only screen and (max-width:768px) { 
+    #texto-narrativa{
+        font-size: 11px;
+    }
+    section{
+        position: relative;
+        top: -20px;
+    }
+    .atras-movil{
+        margin: 8px;
+        padding: 0;
+        top: -25px;
+        left: 20px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 660px) {
+    #img-intro2{
+        width: 280px
+    }
+}
+@media only screen and (max-width: 480px) {
+    #img-intro2{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:320px) {
+    #img-intro2{
+        width: 150px;
+    }
+}

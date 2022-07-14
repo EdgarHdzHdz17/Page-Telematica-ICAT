@@ -1,0 +1,2404 @@
+#planktos-texto{
+    position: absolute;
+    left: 590px;
+}
+#img-mar{
+    background-repeat: no-repeat;
+    width: 280px;
+    height:730px;
+    padding: 0px;
+    margin: 0px;
+}
+#siguiente{
+    width: 60px;
+}
+.col-lg-8{
+    top: -500px;
+}
+section{
+    height: 0;
+}
+p{
+    border-radius: 80px;
+    padding: 22px;
+    position: relative;
+    top: -50px;
+    left: 60px;
+    font-size: 14px;
+}
+.col-lg-2{
+    position: relative;
+    top: -260px;
+    left: -60px;
+    
+}
+#titulo-recomendaciones{
+    color: #D17E24;
+    font-size: 20px;
+    position: relative;
+    margin: 0;
+    left: 360px;
+    width: 350px;
+}
+.siguiente-movil{
+    width: 90px;
+}
+@media only screen and (min-width:1920px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -300px;
+        left: 940px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 900px;
+    }
+    #img-mar{
+        position: relative;
+        width: 400px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 300px;
+        top: -40px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 20px;
+        width: 900px;
+    }
+}
+@media only screen and (max-width: 1919px) {
+    .col-lg-2{
+        position: relative;
+        top: -300px;
+        left: 940px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 920px;
+    }
+    #img-mar{
+        position: relative;
+        width: 400px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 300px;
+        top: -40px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -80px;
+        left: 20px;
+        width: 900px;
+    }
+}
+@media only screen and (max-width: 1844px) {
+     #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 850px;
+    }
+}
+@media only screen and (max-width: 1772px) {
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 840px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 280px;
+        top: -40px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -300px;
+        left: 950px;
+    }
+}
+@media only screen and (max-width: 1740px) {
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 780px;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width: 1699px) {
+    #img-mar{
+        width: 320px;
+    }
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -380px;
+        left: 860px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 720px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 280px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -140px;
+        left: 30px;
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 1599px) {
+    .col-lg-2{
+        position: relative;
+        top: -350px;
+        left: 840px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 740px;
+    }
+    #planktos-recomendaciones{
+        position: absolute;
+        top: 10px;
+        left: 740px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -100px;
+        left: 100px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 1524px) {
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 700px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 680px;
+    }
+}
+@media only screen and (min-width:1459px) and (max-width: 1496px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -380px;
+        left: 810px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 640px;
+    }
+    #img-mar{
+        width: 300px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 260px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -130px;
+        left: 80px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 1456px) {
+    #planktos-texto{
+        position: absolute;
+        left: 650px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -350px;
+        left: 840px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 300px;
+        top: -50px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -100px;
+        left: 100px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width:1444px)  {
+    #planktos-texto{
+        position: absolute;
+        left: 600px;
+    }
+     #img-mar{
+        width: 300px;
+    } 
+    #titulo-recomendaciones{
+        position: relative;
+        left: 220px;
+        top: -70px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 780px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -120px;
+        left: 40px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:1440px) {
+    .siguiente-movil{
+       display: none;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 650px;
+    }
+     #img-mar{
+        width: 300px;
+    } 
+    #titulo-recomendaciones{
+        position: relative;
+        left: 280px;
+        top: -70px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 820px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -120px;
+        left: 90px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width: 1439px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -330px;
+        left: 800px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 650px;
+    }
+    #img-mar{
+        width: 400px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 250px;
+        top: -50px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -100px;
+        left: 80px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 580px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -340px;
+        left: 780px;
+    }
+}
+@media only screen and (min-width:1368px) and (max-width: 1396px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -340px;
+        left: 780px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 600px;
+    }
+    #img-mar{
+        width: 350px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 260px;
+        top: -70px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -120px;
+        left: 60px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1366px) and (max-width:1366px) {
+   #img-mar{
+        position: relative;
+        width: 300px;
+    }
+   .siguiente-movil{
+        display: none;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 600px;
+    } 
+    .col-lg-2{
+        position: relative;
+        top: -350px;
+        left: 800px;
+    
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 260px;
+        top: -70px;
+        width: 350px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -110px;
+        left: 80px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width: 1365px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 780px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 580px;
+    }
+    #img-mar{
+        width: 300px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 240px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -130px;
+        left: 60px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1279px) and (max-width: 1299px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -360px;
+        left: 800px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 580px;
+    }
+    #img-mar{
+        width: 350px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 280px;
+        top: -80px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -120px;
+        left: 80px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1280px) and (max-width:1280px) {
+    .siguiente-movil{
+       display: none;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -380px;
+        left: 780px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 560px; 
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 260px;
+        top: -80px;
+        width: 350px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -140px;
+        left:80px;
+        width: 700px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width: 1279px) {
+    .siguiente-movil{
+       display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -370px;
+        left: 760px;
+    }
+    #planktos-texto{
+        position: absolute;
+        top: 10px;
+        left: 560px;
+    }
+    #img-mar{
+        width: 350px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 280px;
+        top: -70px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: -120px;
+        left: 150px;
+        width: 600px;
+    }
+}
+@media only screen and (min-width:1026px) and (max-width: 1199px) {
+    #img-mar{
+        display: none;
+    }
+    .col-lg-2{
+        position: relative;
+        top: 360px;
+        left: 620px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 660px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 380px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600px;
+        left: -100px;
+        width: 700px;
+    } 
+}
+@media only screen and (max-width: 1113px) {
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 660px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 360px;
+    }
+}
+@media only screen and (max-width: 1092px) {
+    #planktos-texto{
+        position: absolute;
+        left: 340px;
+    }
+}
+@media only screen and (max-width: 1064px) {
+    #planktos-texto{
+        position: absolute;
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    #planktos-texto{
+        position: absolute;
+        left: 280px;
+    }
+}
+@media only screen and (max-width: 1026px) {
+    #planktos-texto{
+        position: absolute;
+        left: 400px;
+    }
+    p{
+        width: 550px;
+        left: 80px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: -400px;
+        left: 640px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        top: -70px;
+        left: 180px;
+    }
+}
+@media only screen and (min-width:1025px) {
+    .siguiente-movil{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:1024px) {
+    #img-mar{
+        display: none;
+    }
+    #siguiente{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 420px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 50px;
+        top: 620px;
+        width: 500px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 260px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -200px;
+        width: 850px;
+    }
+    .col-lg-2{
+        display: none;
+    }
+}
+@media only screen and (max-width:1023px) {
+    #img-mar{
+        display: none;
+    }
+    #siguiente{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 300px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 260px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -100px;
+        width: 700px;
+    }
+    .col-lg-2{
+        display: none;
+    } 
+}
+@media only screen and (min-width:1000px) and (max-width: 1020px) {
+     #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left:420px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 250px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -160px;
+        width: 800px;
+    } 
+}
+@media only screen and (max-width: 999px) {
+     #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 400px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 610px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 260px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -110px;
+        width: 700px;
+    } 
+}
+@media only screen and (max-width: 991px) {
+     #titulo-recomendaciones{
+        position: relative;
+        left: 180px;
+        top: 610px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 0;
+        width: 700px;
+    } 
+}
+@media only screen and (min-width:961px) and (max-width:988px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 400px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 180px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 230px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 570px;
+        left: 20px;
+        width: 700px;
+    } 
+}
+@media only screen and (max-width:960px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 410px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 250px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -120px;
+        width: 960px;
+    } 
+}
+@media only screen and (max-width: 959px) {
+     #titulo-recomendaciones{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+     p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -70px;
+        width: 860px;
+    } 
+}
+@media only screen and (max-width:948px) and (min-width: 900px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 380px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 180px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -80px;
+        width: 880px;
+    } 
+}
+@media only screen and (max-width: 899px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 380px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 180px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -70px;
+        width: 854px
+    } 
+}
+@media only screen and (max-width:872px) and (min-width: 872px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: -400px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 260px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 200px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -70px;
+        width: 854px
+    } 
+}
+@media only screen and (max-width:854px) and (min-width: 854px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 350px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 180px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 600;
+        left: -65px;
+        width: 850px
+    } 
+}
+@media only screen and (max-width:844px) and (min-width: 835px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 300px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 180px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -40px;
+        width: 800px
+    } 
+}
+@media only screen and (max-width:834px) { 
+}
+@media only screen and (max-width:832px) {
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 290px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 5px;
+        margin: 0;
+        width: 823px;
+    } 
+}
+@media only screen and (max-width: 828px) {
+    #planktos-texto{
+        position: absolute;
+        left: 160px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: -360px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 265px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -50px;
+        margin: 0;
+        width: 820px;
+    } 
+}
+@media only screen and (max-width:823px) and (min-width: 823px) {
+    #planktos-texto{
+        position: absolute;
+        left: 160px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 350px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 190px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -50px;
+        margin: 0;
+        width: 820px;
+    } 
+}
+@media only screen and (max-width:820px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 160px;
+        left: 340px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 200px;
+        top: 630px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 580px;
+        left: -45px;
+        width: 812px
+    } 
+}
+@media only screen and (max-width: 816px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 340px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -45px;
+        width: 810px
+    } 
+}
+@media only screen and (max-width:812px) and (min-width:812px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 350px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -45px;
+        width: 810px
+    } 
+}
+@media only screen and (max-width:807px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 330px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 190px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -40px;
+        margin: 0;
+        width: 800px;
+    } 
+}
+@media only screen and (max-width:800px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 340px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -40px;
+        margin: 0;
+        width: 800px;
+    } 
+}
+@media only screen and (max-width:799px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 320px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    p {
+        font-size: 12px;
+        width: 764px;
+        left: -20px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 330px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 130px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 200px;
+        top: 620px;
+        width: 500px;
+    }
+    p {
+        font-size: 12px;
+        width: 764px;
+        left: -22px;
+    }
+}
+@media only screen and (max-width:763px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 310px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    p {
+        font-size: 12px;
+        width: 760px;
+        left: -14px;
+    }
+}
+@media only screen and (max-width:760px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 310px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    p {
+        font-size: 12px;
+        width: 756px;
+        left: -12px;
+    }
+}
+@media only screen and (max-width: 756px) {
+    p {
+        font-size: 12px;
+        width: 752px;
+        left: -12px;
+    }
+}
+@media only screen and (max-width:746px) and (min-width: 739px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 300px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -8px;
+        margin: 0;
+        width: 730px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 115px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 190px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width: 738px) {
+    #planktos-texto{
+        position: absolute;
+        left: 115px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 8px;
+        margin: 0;
+        width: 700px;
+    }  
+}
+@media only screen and (max-width:736px) and (min-width: 736px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 300px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 730px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 115px;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 190px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width:732px) {
+    #siguiente{
+        display: none;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 115px;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 290px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{ 
+        position: relative;
+        left: 170px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 725px;
+    }  
+}
+@media only screen and (max-width:712px) {
+    #siguiente{
+        display: none;
+    }
+    #img-mar{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -10px;
+        margin: 0;
+        width: 700px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 130px;
+    }
+}
+@media only screen and (max-width:699px) and (min-width: 670px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 0;
+        margin: 0;
+        width: 665px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 90px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 220px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width:668px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 270px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -14px;
+        margin: 0;
+        width: 665px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 80px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 160px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width:667px) and (min-width: 667px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 280px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -14px;
+        margin: 0;
+        width: 665px;
+    }  
+    #planktos-texto{
+        position: absolute;
+        left: 80px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 150px;
+        top: 620px;
+    }
+}
+@media only screen and (max-width: 662px) {
+     p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -6px;
+        margin: 0;
+        width: 640px;
+    }  
+}
+@media only screen and (max-width:645px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 260px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 160px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 640px;
+    }  
+}
+@media only screen and (max-width:640px) {
+    #planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 250px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 130px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -15px;
+        margin: 0;
+        width: 640px;
+    }  
+}
+@media only screen and (max-width:630px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 20px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 200px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 30px;
+        margin: 0;
+        width: 550px;
+    }  
+}
+@media only screen and (max-width:626px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 260px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 160px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -10px;
+        margin: 0;
+        width: 615px;
+    }  
+}
+@media only screen and (max-width: 615px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 608px;
+    }  
+}
+@media only screen and (max-width:600px) {
+    #planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 240px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 120px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -10px;
+        margin: 0;
+        width: 590px;
+    }  
+}
+@media only screen and (max-width: 590px) {
+    #planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 230px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -10px;
+        margin: 0;
+        width: 568px;
+    }   
+}
+@media only screen and (max-width: 589px) {
+    #planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -6px;
+        margin: 0;
+        width: 568px;
+    }   
+}
+@media only screen and (max-width: 577px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 220px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -10px;
+        margin: 0;
+        width: 568px;
+    }   
+}
+@media only screen and (max-width: 568px) and (min-width: 568px) {
+    #planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 230px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 100px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -11px;
+        margin: 0;
+        width: 560px;
+    }   
+}
+@media only screen and (max-width: 567px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 220px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -8px;
+        margin: 0;
+        width: 550px;
+    }   
+}
+@media only screen and (max-width:557px) {
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 220px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 15px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 90px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -5px;
+        margin: 0;
+        width: 533px;
+    }   
+}
+@media only screen and (max-width: 535px) {
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 190px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 530px;
+    }   
+}
+@media only screen and (max-width:533px) {
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 200px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 15px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -13px;
+        margin: 0;
+        width: 530px;
+    }   
+}
+@media only screen and (max-width:527px) {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 180px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 80px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -8px;
+        margin: 0;
+        width: 510px;
+    }   
+}
+@media only screen and (max-width: 517px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 3px;
+        margin: 0;
+        width: 476px;
+    }  
+}
+@media only screen and (max-width:490px)  {
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 40px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 130px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 3px;
+        margin: 0;
+        width: 476px;
+    }  
+}
+@media only screen and (max-width: 491px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 150px;
+        left: 180px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 60px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -8px;
+        margin: 0;
+        width: 476px;
+    }  
+}
+@media only screen and (max-width:480px) and (min-width: 480px) {
+    .siguiente-movil{
+        position: relative;
+        top: 140px;
+        left: 180px;
+        z-index: 100;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 50px;
+        top: 620px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: -12px;
+        margin: 0;
+        width: 476px;
+    }  
+}
+@media only screen and (max-width: 477px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 560px;
+        left: 20px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width:460px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 120px;
+        left: 20px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 100px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: 20px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width: 458px) {
+    .siguiente-movil{
+        position: relative;
+        top: 120px;
+        left: 160px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 40px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: 8px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width: 435px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: 0px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width:431px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 120px;
+        left: 20px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 100px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: 10px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width: 424px) {
+    .siguiente-movil{
+        position: relative;
+        top: 120px;
+        left: 150px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 20px;
+        top: 585px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: -10px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width: 419px) {
+    .siguiente-movil{
+        position: relative;
+        top: 110px;
+        left: 140px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: -10px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width:414px) and (min-width: 414px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 120px;
+        left: 150px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 50px;
+        top: 600px;
+        width: 340px;
+        font-size: 16px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 540px;
+        left: -13px;
+        width: 410px;
+    } 
+}
+@media only screen and (max-width:412px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 115px;
+        left: 150px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 45px;
+        top: 590px;
+        width: 300px;
+        font-size: 16px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 400px;
+    } 
+}
+@media only screen and (max-width:411px) and (min-width: 411px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 115px;
+        left: 150px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 50px;
+        top: 590px;
+        font-size: 16px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 400px;
+    } 
+}
+@media only screen and (max-width: 410px) {
+    #titulo-recomendaciones{
+        position: relative;
+        left: 40px;
+        top: 580px;
+        font-size: 16px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: -10px;
+        width: 400px;
+    } 
+}
+@media only screen and (max-width: 399px) {
+    .siguiente-movil{
+        position: relative;
+        top: 115px;
+        left: 150px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 520px;
+        left: -6px;
+        width: 380px;
+    } 
+}
+@media only screen and (max-width:384px) {
+    #planktos-texto{
+        position: absolute;
+        left: 0px;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 110px;
+        left: 130px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 30px;
+        top: 590px;
+        width: 320px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 370px;
+    }  
+}
+@media only screen and (max-width: 383px) {
+    #titulo-recomendaciones{
+        position: relative;
+        left: 20px;
+        top: 590px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 372px;
+    }  
+}
+@media only screen and (max-width: 375px) {
+    #titulo-recomendaciones{
+        position: relative;
+        left: 40px;
+        top: 590px;
+        font-size: 14px;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -13px;
+        width: 372px;
+    }  
+}
+@media only screen and (max-width: 371px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -13px;
+        width: 366px;
+    }
+}
+@media only screen and (max-width: 363px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -13px;
+        width: 358px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .siguiente-movil{
+        position: relative;
+        top: 110px;
+        left: 120px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 34px;
+        top: 590px;
+        width: 300px;
+        font-size: 15px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 350px;
+    }  
+}
+@media only screen and (max-width: 350px) {
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -13px;
+        width: 340px;
+    }
+}
+@media only screen and (max-width: 337px) {
+    .siguiente-movil{
+        position: relative;
+        top: 110px;
+        left: 110px;
+        z-index: 100;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -14px;
+        width: 330px;
+    }
+}
+@media only screen and (max-width:330px) {
+    .siguiente-movil{
+        position: relative;
+        top: 110px;
+        left: 100px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: -10px;
+        top: 585px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -10px;
+        width: 317px;
+    }  
+}
+@media only screen and (max-width:320px) {
+    .siguiente-movil{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        z-index: 100;
+    }
+    #titulo-recomendaciones{
+        position: relative;
+        left: 20px;
+        top: 585px;
+        width: 270px;
+        font-size: 13px;
+    }
+    #planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    p{
+        border-radius: 80px;
+        padding: 22px;
+        position: relative;
+        top: 530px;
+        left: -12px;
+        width: 314px;
+    }  
+}

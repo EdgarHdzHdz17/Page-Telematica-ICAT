@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Antología Medio Ambiente</title>
+	<link rel="shortcut icon" href="img/bio-logo.png"/>
+	<link rel="stylesheet" type="text/css" href="../../../css/encabezado-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/style-index1.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/styleprueba.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/ventana-modal.css">
+    <script type="text/javascript" src="js/eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+        <body>
+            <header>
+               <img src="img/banner-aspiradoras.jpg" class="img-responsive" style="padding: 0 0 30px" alt="Narrativa Aspiradoras">
+            </header>
+                    <!--Inicio de atras para movil-->
+            <div class="atras-movil">
+            <font face="verdana"><a href="../aspiradoras.html" style="visibility: hidden;"><h4 style="color: #333">Atrás</h4></a></font>
+        </div>
+                        <!--Fin de atras para movil-->
+
+                    <!--Inicio de siguiente para movil-->
+            <div class="siguiente-movil" style="width:83px">
+            <font face="verdana"><a href="narrativa2.html"><h4 style="color: #333">Siguiente</h4></a></font>
+        </div>
+                        <!--Fin de siguiente para movil-->
+            <div class="container-fluid">
+                <div class="row">
+                    <section class="col-md-10 col-lg-8 col-lg-push-2">
+                            <!--Inicio de ventana modal video de manglares-->
+                        <div class="modal1 fade" id="video-manglares" onclick="video_introduccion()">
+                            <div class="modal-dialog" >
+                                <video id="manglares" controls class="img-responsive">
+                                    <source src="Video/manglares.mp4">
+                                </video>    
+                            </div>
+                        </div>
+                            <!--Fin de ventana modal video de manglares-->
+                        <font face="verdana">
+                        <p class="texto-narrativa">
+                        <img class="img-responsive" src="img/cambioclimatico.jpg" id="img-cambio" style="border: solid 1px #000;" alt="Mundo">
+                        Cuando escuchamos o leemos  sobre temas como Cambio Climático y  <b><a class="estilo-vinculo" style="cursor: pointer" href="#video-efecto-invernadero" data-toggle="modal"><u>Efecto invernadero</u></a></b>, quizá lo primero que nos viene a la mente es que el <b><a class="estilo-vinculo" style="cursor: pointer" onclick="dioxidocarbono()"><u>CO<SUB>2</SUB>(Dióxido  de carbono)</u></a></b> está causando muchos problemas en el mundo. Pero este gas no necesariamente es un villano total, te invito a que conozcas la importancia que éste tiene para nuestro planeta.<br><br>
+                        El CO<SUB>2</SUB> y otros <b><a class="estilo-vinculo" style="cursor: pointer;" onclick="definicion_gas()"><u>gases</u></a></b> (nitrógeno, oxígeno, neón, xenón, helio, metano y el vapor del agua) son  importantes para que exista vida en el planeta Tierra, ya que forman parte de los gases conocidos como “gases de efecto invernadero” (GEI).<br><br>
+                        Los <b><a class="estilo-vinculo" style="cursor: pointer" onclick="efecto_invernadero()"><u>gases de efecto invernadero</u></a></b> (GEI) retienen parte del calor que la superficie terrestre emite cuando se calienta por la acción de los rayos solares.  Por ello el efecto invernadero ha permitido que la temperatura de la Tierra sea favorable para los seres vivos. <br><br>
+                        Hace varios años la Tierra había mantenido una temperatura promedio de 15º Celsius (C), pero de acuerdo con datos de la Administración Nacional de la Aeronáutica y del Espacio (<b><a href="javascript:window.open('https://www.nasa.gov/','','toolbar=yes');void 0"><u>NASA</u></a></b> por sus siglas en inglés), desde 1880 la temperatura de la Tierra ha aumentado alrededor de 0.8º C.  Este aumento se atribuye al incremento de GEI en la atmósfera, ya que, desde el periodo industrial,  las concentraciones de algunos de estos gases han venido incrementándose de forma alarmante.<br><br>
+                        El caso del incremento del CO<SUB>2</SUB> resalta debido a actividades humanas como la quema de combustibles fósiles  y el cambio en el uso de suelo.  
+ 
+                        </p>
+                        </font>
+                            <aside class="col-md-2 col-lg-2 col-lg-push-1 col-md-push-1" style=" width: 0; height: 0;">
+                                <!-- <a href="../aspiradoras.html"><img src="img/Izquierda.png" id="atras"></a> -->                               
+                                <div class="col-md-2 col-lg-2 col-lg-push-1 col-md-pull-8"><a href="narrativa2.html"><img src="img/Derecha.png" id="siguiente1"></a></div>
+                            </aside>
+                            <!--Inicio de ventana modal efecto invernadero-->
+                            <div class="modal1 fade" id="video-efecto-invernadero" onclick="video_efecto()">
+                                <div class="modal-dialog">
+                                    <video id="video" controls class="img-responsive">
+                                        <source src="Video/AnimaciondeEfectoInvernadero.mp4" type="video/mp4">
+                                    </video>     
+                                </div>
+                        </div>
+                        <!--Fin de ventana modal efecto invernadero-->
+                    </section>
+                </div>
+            </div> 
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script src="../../bootstrap/js/bootstrap.min.js"></script>
+
+             <!--Inicio de script para video de manglares-->
+             <script type="text/javascript">
+                
+                $(window).load(function() {
+                    $('#video-manglares').modal('show');
+                });
+                $("#manglares").bind("ended", function() {
+                    $('#video-manglares').modal('toggle');
+                });
+
+            </script>
+
+            <!--Inicio de script para efecto invernadero-->
+            <script type="text/javascript">
+                $("#video").bind("ended", function() {
+                    $('#video-efecto-invernadero').modal('toggle');
+                });
+
+            </script>
+            <!--Inicio de script para efecto invernadero-->
+
+
+            
+        </body>
+    </html>

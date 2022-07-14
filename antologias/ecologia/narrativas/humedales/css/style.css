@@ -1,0 +1,2806 @@
+#planktos-texto{
+    position: relative;
+    left: 560px;
+}
+#img-mar{
+    background-repeat: no-repeat;
+    width: 280px;
+    height:730px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+.col-lg-3{
+   position: absolute;
+   top: -500px;
+}
+section{
+    position: relative;
+    top: 0;
+}
+#narrativa{
+    width: 130px;
+}
+#introduccion-img{
+    position: relative;
+    top: -290px;
+    left: 900px;
+    display:block;  
+    border: 0;   
+}
+.efecto-narrativa img{
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+}
+.efecto-narrativa:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+#articulo{
+    width: 130px;
+}
+.efecto-articulo img{
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+}
+.efecto-articulo:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+#actividad{
+    width: 130px;
+}
+.efecto-actividad img{
+    position: static;
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+}
+.efecto-actividad:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.col-lg-4{
+   position: relative;
+   top: -400px;
+   left: 300
+}
+#analisis{
+    width: 120px;
+}
+.efecto-analisis img{
+    position: static;
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+}
+.efecto-analisis:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+#revision{
+    width: 120px; 
+}
+.efecto-revision img{
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+}
+.efecto-revision:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+#glosario{
+    width: 120px;   
+}
+.efecto-glosario img{
+    position: static;
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */  
+}
+.efecto-glosario:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.efecto-introduccion img{
+    position: static;
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */  
+}
+.efecto-introduccion:hover img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+@media only screen and (min-width: 1920px) {
+     #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 170px;
+        top: 10px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+        left: 60px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 80px;
+        height: 0;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -180px;
+    }
+    .img-pc {
+        position: relative;
+        left: 100px;
+    }
+}
+@media only screen and (max-width:1919px) and (min-width: 1900px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -400px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+        left: 20px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -180px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 80px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1899px) and (min-width: 1890px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -400px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+        left: 20px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -180px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 80px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1889px)  and (min-width: 1800px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -400px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -180px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 80px;
+        height: 0;
+    }
+}
+@media only screen and (max-width: 1799px) and (min-width: 1769px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -400px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -200px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width: 1768px) and (min-width: 1768px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -310px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -200px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1767px) and (min-width: 1700px) {
+    #img-mar{
+        width: 400px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -400px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -150px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -200px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1699px) and (min-width: 1601px) {
+    body{
+        overflow-y: hidden;
+    }
+    #img-mar{
+        width: 350px;
+        position: relative;
+        top: -160px;
+    }
+    .planktos-texto{
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -430px;
+        left: 960px;
+    }
+    section{
+        position: relative;
+        left: 60px;
+    }
+    .img-pc{
+        position: relative;
+        top: -180px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -200px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1600px) {
+    #img-mar{
+        width: 320px;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 700px;
+    }
+    .img-pc {
+        position: relative;
+        top: -50px;
+        left: 60px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: 150px;
+        left: -100px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -480px;
+        left: 1050px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -200px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 60px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1556px) and (min-width: 1530px) {
+    #img-mar{
+        width: 320px;
+        top: 0;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 650px;
+    }
+    .img-pc {
+        position: relative;
+        top: -40px;
+        left: 60px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: 150px;
+        left: -100px;
+    }
+}
+@media only screen and (max-width: 1529px) {
+    #img-mar{
+        width: 320px;
+        top: 0;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 640px;
+    }
+}
+@media only screen and (max-width: 1466px) {
+    #img-mar{
+        width: 320px;
+        top: 0;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 620px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .planktos-texto{
+        position: absolute;
+        left: 600px;
+    }
+     #img-mar{
+        width: 300px;
+    }
+    .img-pc {
+        position: relative;
+        top: -40px;
+    }
+    .col-lg-2{
+        position: relative;
+        top: 150px;
+        left: -100px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -250px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 60px;
+        left: 100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width: 1431px) {
+    .planktos-texto{
+        position: absolute;
+        left: 600px;
+    }
+     #img-mar{
+        width: 300px;
+    }
+    .img-pc {
+        position: relative;
+        top: -20px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .planktos-texto{
+        position: absolute;
+        left: 550px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img-pc{
+        position: relative;
+        top: -60px;
+        left: 100px;
+    }
+    .img-pc {
+        position: relative;
+        top: -40px;
+        left: 50px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -280px;
+    }
+    .col-lg-5{
+        position: relative;
+        top: 110px;
+        left: -100px;
+        height: 0;
+    }
+}
+@media only screen and (max-width:1280px) {
+    .planktos-texto{
+        position: absolute;
+        left: 550px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: 220px;
+        left: 1000px;
+    }
+    .img-pc{
+        position: relative;
+        left: 60px;
+    }
+}
+@media  only screen and (max-width: 1240px) {
+    .planktos-texto{
+        position: absolute;
+        left: 490px;
+    }
+}
+@media  only screen and (max-width: 1244px) {
+    .planktos-texto{
+        position: absolute;
+        left: 480px;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .planktos-texto{
+        position: absolute;
+        left: 490px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -520px;
+        left: 480px;
+    }
+    .img-pc{
+        position: relative;
+        left: -20px;
+    }
+}
+/*@media only screen and (max-width:1192px) {
+    .planktos-texto{
+        position: absolute;
+        left: 490px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -520px;
+        left: 1000px;
+    }
+    .img-pc{
+        position: relative;
+        left: -20px;
+    }
+}*/
+@media only screen and (max-width: 1136px) {
+    .planktos-texto{
+        position: absolute;
+        left: 440px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .planktos-texto{
+        position: absolute;
+        left: 440px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -520px;
+        left: 860px;
+    }
+    .img-pc{
+        position: relative;
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    .planktos-texto{
+        position: absolute;
+        left: 440px;
+    }
+}
+@media only screen and (max-width:1097px) {
+    .planktos-texto{
+        position: absolute;
+        left: 440px;
+    }
+    #img-mar{
+        position: relative;
+        width: 300px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -520px;
+        left: 860px;
+    }
+    .img-pc{
+        position: relative;
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 1092px) {
+    #introduccion-img{
+        position: relative;
+        top: -550px;
+        left: 460px;
+    }
+}
+@media only screen and (min-width:1025px) {
+    body{
+        overflow-x: hidden;
+    }
+    .col-xs-3 {
+        display: none;
+    }
+    #introduccion-img{
+        display: none;
+    }
+}
+/*@media only screen and (max-width:1024px) and (min-width:1024px) {
+    .img-movil {
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 270px;
+    }
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: 0;
+        left: 90px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: -80px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 80px;
+    }
+    #introduccion-img-pc{
+        position: relative;
+        top: 260px;
+        left: 140px;
+    }
+    .col-lg-1{
+        display: none;
+    }
+    .col-lg-3{
+        position: relative;
+        top: -560px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -480px;
+    }
+}*/
+@media only screen and (max-width:1024px) and (min-width:1000px) {
+    .img-movil {
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 270px;
+    }
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: 0;
+        left: 90px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: -80px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 80px;
+    }
+    #introduccion-img-pc{
+        position: relative;
+        top: 260px;
+        left: 140px;
+    }
+    .col-lg-1{
+        display: none;
+    }
+    .col-lg-3{
+        position: relative;
+        top: -560px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -480px;
+    }
+}
+@media only screen and (max-width: 999px) and (min-width: 961px) {
+     .img-movil {
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 270px;
+    }
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        position: relative;
+        left: -150px;
+        top: 10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: 0;
+        left: 90px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: -80px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: 180px;
+        left: 80px;
+    }
+    #introduccion-img-pc{
+        position: relative;
+        top: 260px;
+        left: 140px;
+    }
+    .col-lg-1{
+        display: none;
+    }
+    .col-lg-3{
+        position: relative;
+        top: -560px;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -480px;
+    }
+}
+@media only screen and (max-width:960px) and (min-width: 960px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 230px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: -20px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -30px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 300px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 600px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -30px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 300px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 600px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 320px;
+    }
+}
+@media only screen and (max-width:940px) and (min-width: 900px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 230px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: -20px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -30px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 300px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 600px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -30px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 300px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 600px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 320px;
+    }
+}
+@media only screen and (max-width:959px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 230px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: -20px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -30px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 300px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 600px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -30px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 300px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 600px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 320px;
+    }
+}
+@media only screen and (max-width:899px) and (min-width: 854px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 230px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: -20px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -30px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 300px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 600px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -30px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 300px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 600px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 320px;
+    }
+}
+@media only screen and (max-width:853px) and (min-width: 824px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 180px;
+    }
+    .img-pc{
+        display: none;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        top: -10px;
+        left: 20px
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 600px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 600px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width:823px) and (min-width: 813px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    .img-movil{
+        position: relative;
+        top: -10px;
+        left: 20px
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 590px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: -10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 590px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width:813px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 550px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 550px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 250px;
+    }
+}
+@media only screen and (max-width:800px) and (min-width:800px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 150px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: -10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 550px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 550px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 250px;
+    }
+}
+@media only screen and (max-width:768px) and (min-width: 768px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 140px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 560px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 560px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 260px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 20px;
+    }
+}
+@media only screen and (max-width: 763px) {
+    .planktos-texto{
+        position: absolute;
+        left: 130px;
+    }
+    .col-lg-5{
+        display: none:;
+    }
+}
+@media only screen and (max-width:736px) {
+   #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 130px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 560px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 560px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -100px;
+        left: 260px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 20px;
+    }
+}
+@media only screen and (max-width:733px) {
+   #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 110px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 560px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px; 
+        left: 10px; 
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 550px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 250px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 731px) {
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width:700px) {
+   #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 110px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 260px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 520px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px; 
+        left: 10px; 
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 260px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 520px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 250px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width:667px) and (min-width: 667px) {
+    .planktos-texto{
+        position: absolute;
+        left: 80px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 500px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 500px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 250px;
+    }
+}
+@media only screen and (max-width:659px) {
+    .planktos-texto{
+        position: absolute;
+        left: 80px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 250px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 500px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 10px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 250px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 490px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 250px;
+    }
+}
+@media only screen and (max-width: 646px) {
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 240px
+    }
+}
+@media only screen and (max-width: 642px) {
+   .planktos-texto{
+        position: absolute;
+        left: 60px;
+    }
+   #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: -20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 250px
+    }
+    #glosario{
+        position: absolute;
+        top: -300px;
+        left: 140px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: 60px;
+        left: 330px;
+    }
+}
+@media only screen and (max-width:640px) and (min-width:640px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 460px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 240px
+    }
+    #glosario{
+        position: absolute;
+        top: -300px;
+        left: 460px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -130px;
+        left: 200px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width:642px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 460px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 240px
+    }
+    #glosario{
+        position: absolute;
+        top: -300px;
+        left: 460px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -130px;
+        left: 200px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width:639px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 460px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 240px
+    }
+    #glosario{
+        position: absolute;
+        top: -300px;
+        left: 460px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -130px;
+        left: 200px;
+    }
+    .img-movil{
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 637px) {
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 230px
+    }
+}
+@media only screen and (max-width: 635px) {
+    .planktos-texto{
+        position: absolute;
+        left: 70px;
+    }
+}
+@media only screen and (max-width:600px) and (min-width:600px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 50px;
+    }
+    .movil{
+        position: relative;
+        top: -560px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 10px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 450px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 240px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 450px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 200px;
+    }
+    .img-movil{
+        position: relative;
+        left: 0;
+        top: -20px;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .planktos-texto{
+        position: absolute;
+        left: 40px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 230px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 430px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 230px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 430px;
+    }
+}
+@media only screen and (max-width: 593px) {
+    .planktos-texto{
+        position: absolute;
+        left: 40px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 220px
+    }
+}
+@media only screen and (max-width:577px) {
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 220px
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 220px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -130px;
+        left: 200px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 420px;
+    }
+}
+@media only screen and (max-width:568px) and (min-width: 568px) {
+    .planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left:  80px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 460px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 80px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 280px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 460px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -140px;
+        left: 110px;
+    }
+    .col-lg-1{
+        height: 0;
+        width: 0;
+    }
+    .img-movil{
+        position: relative;
+        left: -50px;
+    }
+}
+@media only screen and (max-width:567px) {
+    .planktos-texto{
+        position: absolute;
+        left: 30px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left:  80px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 270px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 440px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 80px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 260px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 440px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -140px;
+        left: 110px;
+    }
+    .col-lg-1{
+        height: 0;
+        width: 0;
+    }
+    .img-movil{
+        position: relative;
+        left: -50px;
+    }
+}
+@media only screen and (max-width: 551px) {
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 200px
+    }
+}
+@media only screen and (max-width: 549px) {
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 270px
+    }
+}
+@media only screen and (max-width:533px) and (min-width:533px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .img-pc{
+        display: none;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 20px;
+    }
+    .movil{
+        position: relative;
+        top: -560;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 20px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 210px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -540px;
+        left: 400px;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 220px
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -300px;
+        left: 400px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -120px;
+        left: 120px;
+    }
+    .img-movil{
+        position: relative;
+        left: -10px;
+    }
+}
+@media only screen and (max-width: 529px) {
+    .img-movil{
+        position: relative;
+        left: -80px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .planktos-texto{
+        position: absolute;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 504px) {
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    .img-pc{
+        display: none;
+    }
+    .movil{
+        position: relative;
+        top: -580px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 0;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 280px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 0;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 280px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 270px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+    .img-movil{
+        position: relative;
+        left: 30px;
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 429px){
+    .img-movil{
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 416px) {
+    #introduccion-img{
+        position: relative;
+        top: -10px;
+        left: 190px;
+    }
+    .img-movil{
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 414px) and (min-width: 414px) {
+   .img-movil{
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 0;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 0;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 240px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 0;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 230px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+}
+@media only screen and (max-width: 413px) {
+    #introduccion-img{
+        position: relative;
+        left: 60px;
+        top: 0px;
+    }
+}
+@media only screen and (max-width:412px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    .img-pc{
+        display: none;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 0;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 240px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 0;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 240px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 0;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 230px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+    .img-movil{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+}
+@media only screen and (max-width:384px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    .img-pc{
+        display: none;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 220px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 0;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 220px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 210px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -30px;
+        left: 40px;
+    }
+    .img-movil{
+        position: relative;
+        left: 10px;
+        top: -10px;
+    }
+    .revision-tema{
+        position: relative;
+        font-size: 10px;
+    }
+    .texto-pregunta{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:375px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 220px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 0;
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 220px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 210px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -40px;
+        left: 200px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -30px;
+        left: 40px;
+    }
+}
+@media only screen and (max-width:371px) {
+    #introduccion-img{
+        position: relative;
+        top: -40px;
+        left: 40px;
+    }
+    .img-movil{
+        position: relative;
+        left: 10px;
+        top: -10px;
+    }
+}
+@media only screen and (max-width:360px) and (min-width:360px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    .img-pc{
+        display: none;
+    }
+    .img-movil{
+        position: relative;
+        left: 5px;
+        top: -10px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 200px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 10px; 
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 200px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 200px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 10px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -30px;
+        left: 40px;
+    }
+    .revision-tema{
+        position: relative;
+        font-size: 10px;
+    }
+    .texto-pregunta{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 347px) {
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 180px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 10px; 
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 180px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 180px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -40px;
+        left: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    #img-mar{
+        visibility: hidden;
+    }
+    .planktos-texto{
+        position: absolute;
+        left: 0;
+    }
+    .img-movil{
+        position: relative;
+        left: 0;
+        top: -30px;
+    }
+    .revision-tema{
+        position: relative;
+        font-size: 8.5px;
+    }
+    #narrativa{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+    }
+    #articulo{
+        width: 130px;
+        position: absolute;
+        top: -600px;
+        left: 180px;
+    }
+    #actividad{
+        width: 130px;
+        position: absolute;
+        top: -400px;
+        left: 10px; 
+    }
+    #analisis{
+        width: 120px;
+        position: absolute;
+        top: -400px;
+        left: 180px;
+    }
+    #revision{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 10px;
+    }
+    #glosario{
+        width: 130px;
+        position: absolute;
+        top: -200px;
+        left: 180px;
+    }
+    #introduccion-img{
+        position: relative;
+        top: -40px;
+        left: 20px;
+    }
+}

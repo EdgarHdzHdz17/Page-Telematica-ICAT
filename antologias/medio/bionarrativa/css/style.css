@@ -1,0 +1,616 @@
+#siguiente{
+    position: absolute;
+    width: 50px;
+    top: -90px
+}
+#titulo-bionarrativa{
+    font-size: 25px;
+    color: #D17E24; 
+    text-align: center; 
+    padding: 20px
+}
+#texto-bionarrativa{
+    border-radius: 80px;
+    padding: 22px;
+    /*font-size: 15px;*/
+}
+#pdf{ 
+     position: absolute; 
+     left: 60px; 
+     font-size: 15px;  
+}
+@media only screen and (min-width:1440px) {
+    #siguiente{
+        position: absolute;
+        top: 250px;
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 130px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: 0;
+    }
+}
+@media only screen and (min-width:1280px) {
+    #siguiente{
+        position: absolute;
+        top: 230px;
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 130px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -20px;
+    }
+}
+@media only screen and (max-width: 1279px) {
+    #siguiente{
+        position: absolute;
+        top: 250px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .siguiente-movil{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width: 1024px) {
+    #siguiente{
+        display: none;
+    }
+    .col-lg-2{
+       display: none; 
+    }
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 420px;
+        font-size: 13px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #titulo-bionarrativa{
+        position: relative;
+        left: 180px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+}
+@media only screen and (max-width:1023px) and (min-width: 1000px) {
+    #siguiente{
+        display: none;
+    }
+    .col-lg-2{
+       display: none; 
+    }
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 420px;
+        font-size: 13px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #titulo-bionarrativa{
+        position: relative;
+        left: 180px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+}
+@media only screen and (max-width:999px) and (min-width: 992px) {
+    #siguiente{
+        display: none;
+    }
+    .col-lg-2{
+       display: none; 
+    }
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 420px;
+        font-size: 13px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #titulo-bionarrativa{
+        position: relative;
+        left: 180px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 977px) {
+    #siguiente{
+        display: none;
+    }
+    .col-lg-2{
+       display: none; 
+    }
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 420px;
+        font-size: 13px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #titulo-bionarrativa{
+        position: relative;
+        left: 180px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+    article{
+        position: relative;
+        left: -160px;
+    }
+}
+@media only screen and (max-width: 976px) and (min-width: 959px) {
+    #siguiente{
+        display: none;
+    }
+    .col-lg-2{
+       display: none; 
+    }
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 420px;
+        font-size: 13px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #titulo-bionarrativa{
+        position: relative;
+        left: 180px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+    article{
+        position: relative;
+        left: -160px;
+    }
+}
+@media only screen and (max-width:960px) {
+    #titulo-bionarrativa{
+        font-size: 25px;
+        color: #D17E24; 
+        text-align: center; 
+        padding: 20px;
+    }
+    #siguiente{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        left: 380px;
+        z-index: 100px;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 400px;
+    }
+}
+@media only screen and (max-width: 916px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 380px;
+    }
+}
+/*@media only screen and (max-width: 908px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 800px;
+    }
+}*/
+@media only screen and (max-width: 899px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 380px;
+    }
+}
+/*@media only screen and (max-width: 872px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 750px;
+    }
+}*/
+@media only screen and (max-width: 854px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 350px;
+    }
+}
+@media only screen and (max-width: 835px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 320px;
+    }
+}
+@media only screen and (max-width: 823px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 340px;
+    }
+}
+@media only screen and (max-width:800px) {
+    #siguiente{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        left: 320px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 745px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 280px;
+    }
+}
+@media only screen and (max-width:736px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width:732px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 705px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 280px;
+    }
+}
+/*@media only screen and (max-width: 674px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 0px;
+    }
+}*/
+@media only screen and (max-width:667px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 280px;
+    }
+}
+@media only screen and (max-width: 641px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 530px;
+    }
+}
+@media only screen and (max-width:640px) {
+    #siguiente{
+        display: none;
+    }
+    .siguiente-movil{
+        position: relative;
+        top: 0px;
+        left: 260px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 624px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 240px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 240px;
+    }
+}
+@media only screen and (max-width: 584px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 220px;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 230px;
+    }
+}
+@media only screen and (max-width:533px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 200px;
+    }
+}
+@media only screen and (max-width: 515px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 180px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    #pdf{
+        position: relative;
+        left: 10px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 482px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 370px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 180px;
+    }
+}
+@media only screen and (max-width: 465px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 160px;
+    }
+}
+@media only screen and (max-width: 444px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 140px;
+    }
+}
+/*@media only screen and (max-width: 430px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 320px;
+    }
+}*/
+@media only screen and (max-width:414px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 150px;
+    }
+}
+@media only screen and (max-width:412px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 140px;
+    }
+}
+@media only screen and (max-width: 399px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 120px;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 280px;
+    }
+}
+@media only screen and (max-width:384px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 120px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0;
+        left: 120px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .siguiente-movil{
+        position:relative;
+        top: 0px;
+        left: 100px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .siguiente-movil{
+        position: relative;
+        left: 110px;
+        z-index: 100;
+    }
+    .col-xs-12{
+        position: relative;
+        top: -30px
+    }
+    .img-bionarrativa{
+        position: relative;
+        width: 100px;
+        float: left; 
+        margin: 4px;
+    }
+    #texto-bionarrativa{
+        position: relative;
+        top: -30px;
+        font-size: 12px;
+        width: 300px;
+        left:-5px;
+    }
+    #pdf{
+        position: absolute;
+        left: 30px;
+        top: 740px;
+        width: 240px;
+    }
+}

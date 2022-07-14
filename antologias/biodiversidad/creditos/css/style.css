@@ -1,0 +1,528 @@
+#titulo-creditos{
+    color: #D17E24;
+    font-size: 26px;
+    position: relative;
+    left: 150px;
+    width: 0;
+}
+#img-participantes{
+    width: 140px;
+    position: relative;
+    top: 90px;
+}
+#img-autores{
+    width: 140px;
+}
+#autores{
+    position: relative; 
+    left: 100px; border: solid 1px #D17E24; 
+    top: 6px; 
+    left: -190px; 
+    width: 500px;
+}
+#participantes{
+    position: relative; 
+    left: 100px; 
+    border: solid 1px #D17E24; 
+    display:none; 
+    top: 6px; 
+    left: -190px
+}
+#efecto-participantes img{
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+    
+}
+#efecto-participantes:hover img{
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
+#efecto-autores img{
+    -webkit-transition:all .6s ease; /* Safari y Chrome */
+    -moz-transition:all .6s ease; /* Firefox */
+    -o-transition:all .6s ease; /* IE 9 */
+    -ms-transition:all .6s ease; /* Opera */
+    
+}
+#efecto-autores:hover img{
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
+@media only screen and (max-width: 1920px) {
+    #titulo-creditos{
+        color: #D17E24;
+        font-size: 26px;
+        position: relative;
+        left: 150px;
+        width: 0;
+    }
+    #img-autores{
+        width: 140px;
+        position: relative;
+        top: 20px;
+    }
+     #img-participantes{
+        width: 140px;
+        position: relative;
+        top: 150px;
+    }
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: 6px; 
+        left: -50px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    #titulo-creditos{
+        position: relative;
+        left: 120px;
+    }
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: 6px; 
+        left: -80px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 926px) {
+    #titulo-creditos{
+        position: relative;
+        left: 20px;
+    }
+    #img-autores{
+        width: 140px;
+        position: relative;
+        top: 20px;
+        left: -90px;
+    }
+     #img-participantes{
+        width: 140px;
+        position: relative;
+        top: 150px;
+        left: -90px;
+    }
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: 6px; 
+        left: -180px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #titulo-creditos{
+        position: relative;
+        left: 20px;
+    }
+    #img-autores{
+        width: 140px;
+        position: relative;
+        top: 20px;
+        left: -60px;
+    }
+     #img-participantes{
+        width: 140px;
+        position: relative;
+        top: 150px;
+        left: -60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #img-autores{
+        width: 140px;
+        position: relative;
+        top: 20px;
+        left: -50px;
+    }
+     #img-participantes{
+        width: 140px;
+        position: relative;
+        top: 150px;
+        left: -50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #titulo-creditos{
+        position: relative;
+        left: -55px;
+    }
+    #img-autores{
+        width: 100px;
+        position: relative;
+        top: -15px;
+        left: -130px;
+    }
+     #img-participantes{
+        width: 100px;
+        position: relative;
+        top: -160px;
+        left: 140px;
+    }
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 120px; 
+        width: 500px;
+    }
+    #derechos{
+        position: relative;
+        top: -140px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 100px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 699px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 90px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 80px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 70px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 60px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 620px) {
+     #titulo-creditos{
+        position: relative;
+        left: -70px;
+    }
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 50px; 
+        width: 500px;
+    }
+    .col-sm-3{
+        position: relative;
+        left: -10px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 40px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 30px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 25px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 565px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 20px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 555px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 10px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 545px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 5px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 535px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 0; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: -5px; 
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 510px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 15px; 
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 10px; 
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 5px; 
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 485px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -140px; 
+        left: 0; 
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 20px; 
+        width: 400px;
+    }
+    #titulo-creditos{
+        position: relative;
+        left: -65px;
+        font-size: 25px;
+    }
+    #img-autores{
+        width: 90px;
+        position: relative;
+        top: -10px;
+        left: -100px;
+    }
+     #img-participantes{
+        width: 90px;
+        position: relative;
+        top: -140px;
+        left: 110px;
+    }
+    #derechos{
+            position: relative;
+            top: -130px;
+            left: -20px;
+        }
+}
+@media only screen and (max-width: 465px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 15px; 
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 449px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 10px; 
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 444px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 5px; 
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 0; 
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 422px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: -5px; 
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 20px; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 15px; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 10px; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 395px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 5px; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 0; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: -5px; 
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 365px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 15px; 
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 355px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 10px; 
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 345px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 5px; 
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 335px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: 0; 
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #autores, #participantes{
+        position: relative; 
+        border: solid 1px #D17E24; 
+        top: -120px; 
+        left: -5px; 
+        width: 300px;
+    }
+}
