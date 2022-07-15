@@ -17,3 +17,5 @@ Otherwise requires prior written permission from the Association.
 </p>
 
 You can visit the website at: http://www.telematica.ccadet.unam.mx/
+
+Some folders were skipped for security
